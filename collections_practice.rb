@@ -11,5 +11,5 @@ letter_array.sort {|x,y| x.length <=> y.length}
 end
 
 def swap_elements(array)
-
+array[1] = array[2]
 end
