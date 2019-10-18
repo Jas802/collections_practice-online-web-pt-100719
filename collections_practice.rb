@@ -34,7 +34,7 @@ sum
 end
 
 def find_a(string_array)
-array.select do |word|
+string_array.select do |word|
   word[0] == "a"
 end
 end
