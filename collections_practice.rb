@@ -18,3 +18,12 @@ end
 def reverse_array(num_array)
 num_array.reverse
 end
+
+def kesha_maker(string_array)
+string_array.each do |name|
+  name[2] = "$"
+end
+end
+
+def sum_array(num_array)
+  
