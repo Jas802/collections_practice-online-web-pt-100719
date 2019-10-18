@@ -26,3 +26,9 @@ end
 end
 
 def sum_array(num_array)
+sum = 0
+num_array.each do |num|
+  sum += num
+end
+sum
+end
