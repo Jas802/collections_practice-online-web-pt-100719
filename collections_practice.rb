@@ -44,7 +44,7 @@ word_array.collect do |word|
   if word_array[1] == word
     word
   else
-    word = "s"
+    word + "s"
   end
 end
 end
