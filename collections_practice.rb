@@ -38,3 +38,13 @@ string_array.select do |word|
   word[0] == "a"
 end
 end
+
+def add_s(word_array)
+word_array.collect do |word|
+  if word_array[1] == word
+    word
+  else
+    word = "s"
+  end
+end
+end
