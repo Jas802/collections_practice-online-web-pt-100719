@@ -32,3 +32,9 @@ num_array.each do |num|
 end
 sum
 end
+
+def find_a(string_array)
+array.select do |word|
+  word[0] == "a"
+end
+end
